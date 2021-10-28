@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search username"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginBottom="8dp"/>
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textColorHint="@color/fadedWhite"
+        android:backgroundTint="@color/fadedWhite"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/primaryBlue"
+            android:text="Cancel"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/white"
+            android:id="@+id/cancel_button"
+            android:textSize="18sp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/primaryBlue"
+            android:text="Add"
+            android:id="@+id/add_button"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</LinearLayout>
